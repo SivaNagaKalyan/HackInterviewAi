@@ -49,7 +49,8 @@ const Features = () => {
               <CardDescription>{feature.description}</CardDescription>
             </CardContent>
             {feature.highlight && (
-              <div className="absolute top-4 right-4 text-2xl font-bold" style={{ color: feature.icon.props.className.split(' ').find(c => c.startsWith('text-')) }}>
+              <div className="absolute top-4 right-4 text-2xl font-bold" style={{ color: feature.icon.props.className.split(' ').find((c: string) => c.startsWith('text-'))
+ }}>
                 {feature.highlight}
               </div>
             )}
