@@ -1,13 +1,4 @@
 {
   "extends": ["next/core-web-vitals"],
-  "rules": {
-    // Customize or add any specific ESLint rules you need
-  },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
-    }
-  }
+  "rules": {}
 }
