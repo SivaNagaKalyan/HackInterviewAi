@@ -4,16 +4,16 @@ import React from 'react';
 import Image from 'next/image';
 
 const companies = [
-  { name: 'Google', logo: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png' },
-  { name: 'Apple', logo: 'https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg' },
-  { name: 'Microsoft', logo: 'https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31' },
-  { name: 'Amazon', logo: 'https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png' },
-  { name: 'Meta', logo: 'https://about.fb.com/wp-content/uploads/2021/10/meta-logo.png' },
-  { name: 'Netflix', logo: 'https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.png' },
-  { name: 'Tesla', logo: 'https://www.tesla.com/themes/custom/tesla_frontend/assets/images/logo.svg' },
-  { name: 'Adobe', logo: 'https://www.adobe.com/content/dam/cc/icons/Adobe_Corporate_Horizontal_Red_HEX.svg' },
-  { name: 'Salesforce', logo: 'https://c1.sfdcstatic.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg' },
-  { name: 'Oracle', logo: 'https://www.oracle.com/a/ocom/img/rh03-oraclelogo-header-123x74.png' },
+  { name: 'Google', logo: '/images/google.jpg' },
+  { name: 'Apple', logo: '/images/apple.jpg' },
+  { name: 'Microsoft', logo: '/images/microsoft.webp' },
+  { name: 'Amazon', logo: '/images/Amazon logo.png' },
+  { name: 'Meta', logo: '/images/Meta-Logo.png' },
+  { name: 'Netflix', logo: '/images/netflix.jpg' },
+  { name: 'Tesla', logo: '/images/tesla.jpg' },
+  { name: 'Adobe', logo: '/images/Adobe-logo-vector-01.svg' },
+  { name: 'Salesforce', logo: '/images/Salesforce.com_logo.svg.png' },
+  { name: 'Oracle', logo: '/images/Oracle_logo.svg.png' },
 ];
 
 const CompanyLogoCarousel = () => {
